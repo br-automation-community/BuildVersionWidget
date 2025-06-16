@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<CompoundWidget id="BuildVersionAdvanced" width="500" height="150" description="500 x 150 extended build version information table" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<CompoundWidget id="BuildVersionAdvanced" width="650" height="150" description="500 x 150 extended build version information table" xmlns="http://www.br-automation.com/iat2015/contentDefinition/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<Widgets>
 		<Widget xsi:type="widgets.brease.Label" id="LabelBuildVersion" top="0" left="0" width="250" zIndex="0" text="$IAT/BuildVersion/BuildVersion" textAlign="center" fontSize="20px" padding="0px 15px" />
 		<Widget xsi:type="widgets.brease.Label" id="LabelAS" top="30" left="0" width="100" height="20" zIndex="1" text="$IAT/BuildVersion/AS" textColor="rgba(0, 0, 0, 0.7)" textAlign="right" fontSize="12px" padding="0px 5px" />
@@ -21,9 +21,9 @@
 		<Widget xsi:type="widgets.brease.Label" id="LabelAddnCommits" top="50" left="250" width="100" height="20" zIndex="17" text="$IAT/BuildVersion/AdditionalCommits" textColor="rgba(0, 0, 0, 0.7)" textAlign="right" fontSize="12px" padding="0px 5px" />
 		<Widget xsi:type="widgets.brease.TextOutput" id="TextOutputAddCommits" top="50" left="350" width="150" height="20" zIndex="18" ellipsis="true" value="4" fontSize="14px" padding="0px 5px" />
 		<Widget xsi:type="widgets.brease.Label" id="LabelSha1" top="70" left="250" width="100" height="20" zIndex="19" text="$IAT/BuildVersion/Sha1" textColor="rgba(0, 0, 0, 0.7)" textAlign="right" fontSize="12px" padding="0px 5px" />
-		<Widget xsi:type="widgets.brease.TextOutput" id="TextOutputSha1" top="70" left="350" width="150" height="20" zIndex="20" ellipsis="true" value="abcdefghijklmnopqrstuvwxyz" fontSize="14px" padding="0px 5px" />
+		<Widget xsi:type="widgets.brease.TextOutput" id="TextOutputSha1" top="70" left="350" width="350" height="20" zIndex="20" ellipsis="true" value="abcdefghijklmnopqrstuvwxyz" fontSize="14px" padding="0px 5px" />
 		<Widget xsi:type="widgets.brease.Label" id="LabelChanges" top="90" left="250" width="100" height="20" zIndex="21" text="$IAT/BuildVersion/UncommittedChanges" textColor="rgba(0, 0, 0, 0.7)" textAlign="right" fontSize="12px" padding="0px 5px" />
-		<Widget xsi:type="widgets.brease.TextOutput" id="TextOutputChanges" top="90" left="350" width="150" height="20" zIndex="22" ellipsis="true" multiLine="true" value="8 files changed, 21 insertions(+), 17 deletions(-)" fontSize="12px" padding="0px 5px" />
+		<Widget xsi:type="widgets.brease.TextOutput" id="TextOutputChanges" top="90" left="350" width="350" height="20" zIndex="22" ellipsis="true" multiLine="true" value="8 files changed, 21 insertions(+), 17 deletions(-)" fontSize="12px" padding="0px 5px" />
 		<Widget xsi:type="widgets.brease.Label" id="LabelCommitDate" top="110" left="250" width="100" height="20" zIndex="23" text="$IAT/BuildVersion/CommitDate" textColor="rgba(0, 0, 0, 0.7)" textAlign="right" fontSize="12px" padding="0px 5px" />
 		<Widget xsi:type="widgets.brease.DateTimeOutput" id="DateTimeOutputCommit" top="110" left="350" width="150" height="20" zIndex="24" format="yyyy-MM-dd HH:mm:ss" textAlign="left" fontSize="14px" bold="false" padding="0px 5px" />
 		<Widget xsi:type="widgets.brease.Label" id="LabelCommitAuthor" top="130" left="250" width="100" height="20" zIndex="25" text="$IAT/BuildVersion/CommitAuthor" textColor="rgba(0, 0, 0, 0.7)" textAlign="right" fontSize="12px" padding="0px 5px" />
