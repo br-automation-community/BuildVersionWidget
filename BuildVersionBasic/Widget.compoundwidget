@@ -8,7 +8,7 @@
     <Widget xsi:type="widgets.brease.Label" id="LabelVersion" top="18" left="300" width="100" height="12" zIndex="4" text="$IAT/BuildVersion/Version" textColor="rgba(0, 0, 0, 0.7)" textAlign="center" fontSize="12px" padding="0px 5px" />
     <Widget xsi:type="widgets.brease.DateTimeOutput" id="DateTimeOutputGitCommit" top="0" left="400" width="150" height="18" zIndex="5" format="yyyy-MM-dd HH:mm:ss" bold="false" fontSize="14px" padding="0px 5px" />
     <Widget xsi:type="widgets.brease.Label" id="LabelCommitDate" top="18" left="400" width="150" height="12" zIndex="6" text="$IAT/BuildVersion/BasicDate" textColor="rgba(0, 0, 0, 0.7)" textAlign="center" fontSize="12px" padding="0px 5px" />
-    <Widget xsi:type="widgets.brease.Image" id="ImageWarning" top="18" left="382" width="12" height="12" zIndex="7" image="LocalMedia/Warning.svg" visible="false" />
+    <Widget xsi:type="widgets.brease.Image" id="ImageWarning" top="18" left="382" width="12" height="12" zIndex="7" image="Media/Warning.svg" visible="false" />
   </Widgets>
   <Properties>
     <Property xsi:type="StructureBindableProperty" name="value" type="BuildVersionType" category="Data" readOnly="false" required="false" >

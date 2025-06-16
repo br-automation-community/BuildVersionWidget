@@ -18,7 +18,7 @@
     <Widget xsi:type="widgets.brease.DateTimeOutput" id="DateTimeOutputCommit" top="60" left="350" width="150" height="20" zIndex="14" format="yyyy-MM-dd HH:mm:ss" textAlign="left" fontSize="14px" bold="false" padding="0px 5px" />
     <Widget xsi:type="widgets.brease.Label" id="LabelCommitAuthor" top="80" left="250" width="100" height="20" zIndex="15" text="$IAT/BuildVersion/CommitAuthor" textColor="rgba(0, 0, 0, 0.7)" textAlign="right" fontSize="12px" padding="0px 5px" />
     <Widget xsi:type="widgets.brease.TextOutput" id="TextOutputCommitAuthor" top="80" left="350" width="150" height="20" zIndex="16" ellipsis="true" value="John Smith" fontSize="14px" padding="0px 5px" />
-    <Widget xsi:type="widgets.brease.Image" id="ImageWarning" top="40" left="263" width="20" height="20" zIndex="17" image="LocalMedia/Warning.svg" visible="false" />
+    <Widget xsi:type="widgets.brease.Image" id="ImageWarning" top="40" left="263" width="20" height="20" zIndex="17" image="Media/Warning.svg" visible="false" />
   </Widgets>
   <Properties>
     <Property xsi:type="StructureBindableProperty" name="value" type="BuildVersionType" category="data" readOnly="false" required="false" >
