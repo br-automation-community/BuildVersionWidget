@@ -4,7 +4,7 @@ This package serves a widget library to be paired with the [BuildVersion](https:
 BuildVersion is a software package for Automation Studio to automatically collect version information from a git repository.  
 This widget library provides single binding widgets to quickly display a range of git version information.  
 
-**NOTE:** This is not an official package and is provided as-in under the GPL v3.0 license.
+**NOTE:** This is not an official package and is provided as-in under the MIT license.
 
 ## Features
 
